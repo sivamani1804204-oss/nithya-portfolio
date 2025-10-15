@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react";
-import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "./ThemeToggle";
-import { Download } from "lucide-react";
 
 export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -76,13 +74,7 @@ export function Navigation() {
               Education
             </button>
 
-            <div className="flex items-center gap-2">
-              <ThemeToggle />
-              <Button size="sm" data-testid="button-resume">
-                <Download className="h-4 w-4 mr-2" />
-                Resume
-              </Button>
-            </div>
+            <ThemeToggle />
           </div>
         </div>
       </div>

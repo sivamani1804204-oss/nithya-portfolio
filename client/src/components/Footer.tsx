@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Heart } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 export function Footer() {
   const scrollToSection = (id: string) => {
@@ -72,13 +72,6 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-8 pt-6 border-t text-center">
-          <p className="text-sm text-muted-foreground flex items-center justify-center gap-2 flex-wrap">
-            <span>© 2025 Srinithya Manoharan. Built with</span>
-            <Heart className="h-4 w-4 text-primary fill-primary" />
-            <span>and React</span>
-          </p>
-        </div>
       </div>
     </footer>
   );
