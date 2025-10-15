@@ -78,12 +78,12 @@ export function Hero() {
           <div className="lg:col-span-2 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-chart-2/20 rounded-full blur-3xl"></div>
-              <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-primary/20">
-                <img
-                  src="/attached_assets/4061 copy (1)_1760534897772.jpg"
-                  alt="Srinithya Manoharan"
-                  className="w-full h-full object-cover"
-                />
+              <div className="relative w-full h-full rounded-full bg-gradient-to-br from-primary to-chart-2 flex items-center justify-center">
+                <div className="w-[95%] h-[95%] rounded-full bg-background flex items-center justify-center">
+                  <span className="text-7xl font-bold bg-gradient-to-br from-primary to-chart-2 bg-clip-text text-transparent">
+                    SM
+                  </span>
+                </div>
               </div>
             </div>
           </div>
