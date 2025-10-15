@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
+import profileImage from "@assets/4061 copy (1)_1760535332651.jpg";
 
 export function Hero() {
   return (
@@ -80,7 +81,7 @@ export function Hero() {
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-chart-2/20 rounded-full blur-3xl"></div>
               <div className="relative w-full h-full rounded-full overflow-hidden ring-4 ring-primary/20">
                 <img
-                  src="/attached_assets/4061 copy (1)_1760535332651.jpg"
+                  src={profileImage}
                   alt="Srinithya Manoharan"
                   className="w-full h-full object-cover"
                   data-testid="img-profile"
