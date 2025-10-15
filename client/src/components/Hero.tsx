@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
-import profileImage from "@assets/4061 copy (1)_1760535332651.jpg";
+import profileImage from "@assets/profile-photo.jpg";
 
 export function Hero() {
   return (
